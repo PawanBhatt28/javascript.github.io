@@ -1,0 +1,64 @@
+/* body{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 70vh;
+} */
+header{
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+}
+.sec1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.sec1 button{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: larger;
+    border-radius: 1rem;
+    margin:0;
+
+}
+.sec2{
+    margin: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+.sec2 li{
+    text-align: center;
+
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border: black solid 0.1rem;
+    width: 30vw;
+}
+.sec2 li:hover{
+    background-color: lightblue;
+}
+
+#damnNut{
+    width: 30vw;
+    height: 30vw;
+    transition: all 1s ease-out;
+}
+#damnNut:hover{
+
+    transform: rotate(500deg);
+
+}

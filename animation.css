@@ -1,0 +1,26 @@
+#container{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color:greenyellow;
+}
+
+#animation{
+    position: absolute;
+    width: 100px;
+    height:100px;
+    background:tomato;
+}
+
+#animate{
+    position: relative;
+    left: 30rem;
+    top: -20rem;
+    float: left;
+    height: 5rem;
+    width: 50rem;
+    background: purple;
+    color:white;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

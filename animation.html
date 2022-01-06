@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="animation.css">
+    </head>
+
+    <body>
+        <header>
+        <h1 style="text-align: center;font-family:monospace;font-size:3rem;">ANIMATION</h1>
+        </header>
+
+        <main>
+            <p id="size">HELO</p>
+            <a href="https://www.youtube.com/" target="_blank">
+            <div id="container">
+                <div id="animation">
+                </div>
+            </div>
+            </a>
+
+            <div>
+                
+                <input type="button" name="Animate" value="Click me!!" id="animate" onclick="clicks(this)">
+                
+            </div>
+
+        </main>
+
+            <script>  
+            // function func(){
+            //     document.getElementById("size").innerHTML = "Height : "  + 
+            //          window.innerHeight + "Width : " + window.innerWidth;
+            // } -->
+            // function clicks(){
+            //     window.history.back();
+            //     window.history.back();
+            //     window.history.back();
+            //     window.history.back();
+            //     window.history.back();
+            //     window.history.back();
+
+            // }
+            
+            let clickCount = 0 ;  
+            function clicks(id){
+                if(clickCount == 0){
+                    id.value = 'HELLO';
+                }else if (clickCount == 1){
+                    id.value = "How are you ?";
+                }else if (clickCount == 2){
+                    id.value = "How was your day son ?";
+                }else if (clickCount == 3){
+                    id.value = "you still here son."
+                }else if (clickCount == 4){
+                    id.value = "get tf away from here boi."
+                }else if (clickCount == 5){
+                    id.value = "i'll fuckin suck your pp, COME HERE!!"
+                }else if (clickCount == 6){
+                    id.value = "I am out Bro!"
+                }else if(clickCount == 7){
+                    id.value = "";
+                    document.getElementsByTagName("img").src = "sus.gif";
+                }
+                else if (clickCount == 8){
+                    id.style.display = 'none';
+                    clickCount = -1;
+                }
+                clickCount++;
+            } 
+
+
+        </script>
+    </body>
+</html>
